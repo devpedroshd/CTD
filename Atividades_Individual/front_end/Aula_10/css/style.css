@@ -1,0 +1,107 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(42, 114, 165);
+    height: 80px;
+    padding: 20px 40px;
+
+}
+
+
+.main-menu {
+
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.main-menu a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+.main-site-content {
+
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 12px; 
+    min-height: 100vh;
+    padding: 40px;
+
+}
+
+.hero-card {
+
+    height: fit-content;
+    width: 400px;
+    background-color: crimson;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.h-a {
+    padding-left: 100px;
+
+}
+
+.hero-card .favorite-icon {
+
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.hero-card .background-image {
+
+    width: 100%;
+    
+
+}
+
+.hero-card .profile-image {
+
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+
+}
+
+.hero-card p {
+
+    position: relative;
+
+}
+
+footer {
+
+    background-color: #00669F;
+    height: 51px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    color: white;
+}
