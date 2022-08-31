@@ -3,21 +3,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 
 }
 
 header {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    display: flex; /* Aplica a estratégia de flex */
+    justify-content: space-between; /* Diz que os itens do Header irão ficar horizontalmente em espaços opostos */
+    align-items: center; /* Alinha os itens verticalmente no Centro */
     background-color: rgb(42, 114, 165);
     height: 80px;
     padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 50;
 
 }
-
 
 .main-menu {
 
@@ -37,10 +39,10 @@ header {
 
 .main-site-content {
 
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 12px; 
+    display: flex; /* Aplica a estratégia de flex */
+    flex-wrap: wrap; /* Possibilita os itens irem para a "linha de baixo" caso não exista espaço o suficiente para eles ficarem um ao lado do outro */
+    justify-content: center; /* Diz que os itens do elemento que tiver a classe "main-site-content" irão ficar horizontalmente no centro */
+    gap: 12px; /* Adiciona um espaçamento entre os itens */
     min-height: 100vh;
     padding: 40px;
 
@@ -48,18 +50,13 @@ header {
 
 .hero-card {
 
-    height: fit-content;
     width: 400px;
+    height: fit-content;
     background-color: crimson;
+    /* padding: 40px; */
     border-radius: 12px;
     overflow: hidden;
     position: relative;
-    
-
-}
-
-.h-a {
-    padding-left: 100px;
 
 }
 
@@ -72,36 +69,41 @@ header {
 
 }
 
+.hero-card main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
 .hero-card .background-image {
 
     width: 100%;
-    
+    margin-bottom: -100px;
 
 }
 
 .hero-card .profile-image {
 
-    display: block;
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100%;
-    margin: 0 auto;
 
 }
 
 .hero-card p {
 
+    /* margin: 0 40px; */
     position: relative;
 
 }
 
 footer {
 
-    background-color: #00669F;
-    height: 51px;
-    padding-top: 19px;
-    padding-bottom: 16px;
-    padding-left: 28px;
-    color: white;
+    background-color: aquamarine;
+    height: 100%;
+
 }
