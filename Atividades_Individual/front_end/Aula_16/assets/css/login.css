@@ -4,11 +4,13 @@
     padding-top: 3px;
     padding-bottom: 3px;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+.header-container {
     width: 100%;
 }
-header {
-  
-}
+
 
 
 .nome-loja {
@@ -20,6 +22,7 @@ header {
     padding-top: 27px;
     padding-bottom: 18px;
     width: 100%;
+    
    
 
        
@@ -36,10 +39,8 @@ header {
     position: absolute;
     padding-top: 07px;
     padding-left: 30px;
-    
-    
-    
-    
+
+        
 }
 
 

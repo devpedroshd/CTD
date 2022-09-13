@@ -1,0 +1,230 @@
+/* font-family: 'Antonio', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+
+header {
+    background-color: #0b090a;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #0b090a;
+}
+
+header h1 {
+    padding-left: 120px;
+    padding-top: 36px;
+    font-size: 64px;
+}
+
+.menu-nav {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    padding-right: 87px;
+    padding-top: 65px;
+   
+
+}
+
+.menu-nav a {    
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    
+}
+
+.main-site img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-descrição {
+    
+   
+
+}
+
+.para {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    
+}
+
+#Curiosidades h1 {
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    align-items: center;
+    gap: 5px;
+    width: 320px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    border: 2px solid;
+    margin-left: 60px;
+    
+  }
+
+  .card img {
+    width: 100%;
+    height: 150px;
+  
+  }
+
+  .card p {
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  #video-page {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 90px;
+    
+
+    
+    
+  }
+
+  #video-page iframe {
+        margin-top: 40px;
+        
+       
+        
+       
+        
+  }
+
+ 
+  
+  .redes-sociais {
+    
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 100px;
+    height: 70px;
+    position: absolute;
+    padding-left: 620px;
+    
+  }
+
+  .redes-sociais a {
+    text-decoration: none;
+    
+  }
+
+  .redes-sociais i {
+    color: white;
+  }
+
+.contato {
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-left: 120px;
+    position: relative;
+    margin-top: 205px;
+    font-weight: bold;
+    
+    
+}
+
+
+@media(max-width: 725px) {
+    header
+     {
+        
+        flex-direction: column;
+        height: fit-content;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+    }
+
+    .menu-nav {
+        
+        
+        padding-left: 70px;
+        margin-bottom: 20px;
+    
+        
+        
+        
+        
+    }
+
+
+   .header h1 {
+    align-items: center;
+   }
+
+    .para {
+        position: relative;
+        width: fit-content;
+        
+    }
+
+   .redes-sociais {
+    
+    
+
+    margin-left: -490px;
+   }
+
+
+  #video-page iframe {
+    height: 315px;
+    width: 400px;
+    
+  }
+
+  
+
+
+
+
+   
+}

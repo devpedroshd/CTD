@@ -26,6 +26,7 @@ header {
     display: flex;
     list-style: none;
     gap: 24px;
+    
 
 }
 
@@ -113,5 +114,6 @@ footer {
         flex-direction: column;
         height: fit-content;
     }
+    
 }
 
