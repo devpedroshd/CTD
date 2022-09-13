@@ -118,7 +118,8 @@ header h1 {
 
   #video-page iframe {
         margin-top: 40px;
-        
+        height: 315px;
+        width: 400px;
        
         
        
