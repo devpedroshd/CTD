@@ -1,0 +1,23 @@
+{
+  "name": "ctd",
+  "version": "1.0.0",
+  "description": "Repositório para envio dos exercícios do curso certified tech developer da digitalhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpedroshd/CTD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devpedroshd/CTD/issues"
+  },
+  "homepage": "https://github.com/devpedroshd/CTD#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
